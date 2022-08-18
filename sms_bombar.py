@@ -47,7 +47,7 @@ inpuser=str(input("•\33[93mEnter Username:-\33[91m"))
 inppass=str(input("•\33[91mEnter Password:-\33[93m"))
 
 if usern==inpuser and passwd==inppass:
-   psb("\33[1;32m[√] Login Successful SecDet")
+   psb("\33[1;32m[√] Login Successful TohaSakib")
    time.sleep(1)
    pass
 
@@ -64,7 +64,7 @@ def api1():
     
     data = {
       "requestType": "send",
-      "phoneNumber": "+88" + number,
+      "phoneNumber": "+966" + number,
       "emailConsent": "true",
       "whatsappConsent": "true"
     }
@@ -88,7 +88,7 @@ def api2():
    
     data = {
         "operator" : "all",
-        "msisdn": "88" + number
+        "msisdn": "996" + number
     }
     
     
@@ -106,12 +106,12 @@ def api2():
 
 def api4():
    
-    url ="https://stage.bioscopelive.com/en/login/send-otp?phone=88"+number+"&operator=bd-otp"
+    url ="https://stage.bioscopelive.com/en/login/send-otp?phone=996"+number+"&operator=bd-otp"
    
     
     data = {
       "requestType": "send",
-      "phoneNumber": "+88" + number,
+      "phoneNumber": "+996" + number,
       "emailConsent": "true",
       "whatsappConsent": "true"
     }
